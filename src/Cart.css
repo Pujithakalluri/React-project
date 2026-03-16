@@ -1,0 +1,80 @@
+
+/* ===== CLEAR BUTTON ===== */
+.clear-btn {
+  background: #e74c3c;
+  color: white;
+  padding: 6px 15px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: auto;              /* important */
+  display: inline-block;
+}
+
+/* ===== REMOVE BUTTON ===== */
+.remove-btn {
+  background: #e74c3c;
+  color: white;
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: auto;              /* important */
+}
+
+/* ===== SMALL INCREMENT & DECREMENT BUTTONS ===== */
+.quantity-control button {
+  width: 26px;          /* small width */
+  height: 26px;         /* small height */
+  padding: 0;           /* remove padding */
+  font-size: 14px;
+  border-radius: 4px;
+  background: #f39c12;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== DISCOUNT BUTTONS ===== */
+.discount-buttons button {
+  padding: 6px 12px;
+  font-size: 12px;
+  width: auto;              /* important */
+  display: inline-block;
+}
+
+/* ===== COUPON BUTTON ===== */
+.coupon-section button {
+  padding: 6px 12px;
+  font-size: 12px;
+  width: auto;              /* important */
+}
+
+/* ===== CHECKOUT BUTTON ===== */
+.checkout-btn {
+  width: auto;              /* removed full width */
+  padding: 8px 20px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* ===== PAYMENT BUTTONS ===== */
+.payment-section button {
+  padding: 6px 15px;
+  font-size: 13px;
+  width: auto;
+}
+
+/* ===== FINAL BUTTONS (Send Email / Place Order) ===== */
+.summary > button {
+  width: auto;              /* remove 100% width */
+  padding: 8px 18px;
+  font-size: 14px;
+  margin-right: 10px;
+}

@@ -1,0 +1,42 @@
+/* ===== NAVBAR CONTAINER ===== */
+.navbar {
+  display: flex;
+  justify-content: center;      /* center menu */
+  align-items: center;
+  gap: 40px;                    /* space between items */
+  padding: 18px 0;
+  background-color: rgb(39, 207, 162);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== NAVBAR LINKS ===== */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+/* ===== HOVER EFFECT ===== */
+.navbar a:hover {
+  color: gold;
+}
+
+/* ===== UNDERLINE ANIMATION ===== */
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background: gold;
+  transition: 0.3s;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+

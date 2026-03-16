@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* ===== PAGE BACKGROUND ===== */
+.contact-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+              url("https://images.unsplash.com/photo-1498654896293-37aacf113fd9");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+}
+
+/* ===== TITLE ===== */
+.contact-title {
+  font-size: 36px;
+  color: #f8c146;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+/* ===== FORM CARD ===== */
+.contact-form {
+  width: 100%;
+  max-width: 450px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ===== INPUTS ===== */
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  background: rgba(255,255,255,0.9);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 8px #f8c146;
+}
+
+/* ===== BUTTON ===== */
+.contact-form button {
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #f8c146, #ffdd75);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 500px) {
+  .contact-title {
+    font-size: 28px;
+  }
+
+  .contact-form {
+    padding: 25px;
+  }
+}
